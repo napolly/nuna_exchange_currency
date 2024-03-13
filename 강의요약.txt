@@ -1,0 +1,22 @@
+--> 코딩알려주는 누나의 자바스크립트 기초 강의
+
+
+https://www.youtube.com/watch?v=Hm2DvKtDsgs
+개발환경세팅
+1) VSC 설치
+2) Extension 설치
+code spell checker(코드 스펠 체크)
+live server(실행용)
+Prettier - Code formatter(코드정렬)
+ES7 React/Redux/GraphQL/React-Native snippets
+Auto Rename Tag
+Auto Close Tag
+GitLens — Git supercharged
+
+맥북에서는 - Command + Shift + P --> Shell 검색 후 설치 ( Shell Command:Install 'code' command in PATH )
+--> 참고
+Q)잘봤어요!! 그런데 따라해보는데 ctrl+shift+p 누르고  shell 쳤는데 일치하는 명령없음 이라고 뜨네요ㅜㅜ 원인이 뭘까요?
+
+A)저도 같은 현상이 나와서 찾아보니 Windows에서는 기본적으로 설치되므로 경로를 추가할 필요가 없다고 하네요. cmd에서 code . 명령어 실행하면 정상적으로 작동되여!!
+
+3)

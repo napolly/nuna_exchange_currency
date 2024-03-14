@@ -35,4 +35,16 @@ link 입력하면 link:css 선택 -> 자동입력
 
   dropdown-content 에서 display : none 이면 안보여주겠다는건데
   .dropdown:hover .dropdown-content 여기에서, dropdown:hover 이면 display 를 block 막겠다
-  
+
+  6)
+  //변수 - 객체타입
+// 어떤 값에 대해서 여러가지 정보가 필요할 때 객체타입의 변수를 사용
+// 객체에서 값을 읽어오는건?
+
+// (1) currencyRatio 변수 안에 다 있는것이라
+console.log(currencyRatio.USD.unit);
+console.log();
+
+// (2) currencyRatio["VND"]["unit"]
+console.log(currencyRatio["VND"]["unit"]);
+즉, 객체 내 변수를 읽어올 때, .을 사용하든 []를 사용하든 똑같음

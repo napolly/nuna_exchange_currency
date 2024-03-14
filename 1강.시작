@@ -48,3 +48,6 @@ console.log();
 // (2) currencyRatio["VND"]["unit"]
 console.log(currencyRatio["VND"]["unit"]);
 즉, 객체 내 변수를 읽어올 때, .을 사용하든 []를 사용하든 똑같음
+
+버튼 2개가 구조가 똑같아서 id로 구분
+구조는 똑같지만 id로 구분이 가능함

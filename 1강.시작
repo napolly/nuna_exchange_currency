@@ -51,3 +51,5 @@ console.log(currencyRatio["VND"]["unit"]);
 
 버튼 2개가 구조가 똑같아서 id로 구분
 구조는 똑같지만 id로 구분이 가능함
+
+html number 입력할 때, onkeyup 이벤트 - 키가 눌렸다 떼지는 순간 이벤트 발생

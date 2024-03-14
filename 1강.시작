@@ -7,3 +7,32 @@ html 치면 html:5 선택
 link 입력하면 link:css 선택 -> 자동입력
 
 3) script 치면 script:src 단축키 선택
+
+4) 드랍다운리스트 생성
+ --> 요약에 링크정보있음
+ 
+ html 태그(<div></div>) 는 index.html에
+ <style></style> 태그는 style.css 파일에 복붙
+
+ 5) css 설명 중
+   /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+    
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  dropdown-content 에서 display : none 이면 안보여주겠다는건데
+  .dropdown:hover .dropdown-content 여기에서, dropdown:hover 이면 display 를 block 막겠다
+  

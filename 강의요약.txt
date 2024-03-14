@@ -1,7 +1,7 @@
 --> 코딩알려주는 누나의 자바스크립트 기초 강의
 
 
-https://www.youtube.com/watch?v=Hm2DvKtDsgs
+https://www.youtube.com/watch?v=1BF_BwW0LPs&list=PLKvVQ9ZQzjVkcW5Q2dkij8r0exIxG4sr_
 개발환경세팅
 1) VSC 설치
 2) Extension 설치
@@ -19,4 +19,5 @@ Q)잘봤어요!! 그런데 따라해보는데 ctrl+shift+p 누르고  shell 쳤�
 
 A)저도 같은 현상이 나와서 찾아보니 Windows에서는 기본적으로 설치되므로 경로를 추가할 필요가 없다고 하네요. cmd에서 code . 명령어 실행하면 정상적으로 작동되여!!
 
-3)
+3) 참고할만한 css 사이트
+https://www.w3schools.com/css/css_dropdowns.asp

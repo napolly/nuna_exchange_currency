@@ -1,0 +1,160 @@
+1) style 생성
+ex)
+.dropbtn {
+    background-color: #4CAF50;
+    color: white; 글자색 - red
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+. 여기서는 dropbtn 스타일 이름
+. {} 내부 스타일 정의
+. 이걸 html에 적용
+
+w3school 의 css Reference 참고 사이트
+https://www.w3schools.com/cssref/index.php
+
+==> html에 적용하는법
+1) 태그에 직접적으로 적용
+2) id를 이용
+3) class를 이용
+ -> html 태그 안에 class="css이름" 만 넣어주면 끝
+ 예를들면, html 태그가 <div>This is html tag</div> 라고 하면, 여기에 css를 적용하기 위해선
+ <div class="dropbtn">This is html tag</div>
+ 이렇게 하면 적용
+
+ 여러 스타일 적용? - "" 안에 스페이스로 구분해서 스타일명 입력
+  <div class="dropbtn border-blue">This is html tag</div>
+
+여러 스타일을 짬뽕하여 새로운 스타일을 적용할 수 있다. --> 보더 + 이미지사이트 = 네모박스 같이
+
+(margin : 요소 바깥쪽의 공간)
+.margin-space{
+    margin-top : 40px;
+    margin-left : 100px;
+    margin-bottom : 20px;
+}
+
+(padding - 요소 안쪽의 공간)
+.padding-space{
+    padding-top : 40px;
+    
+}
+
+태그 안의 태그에 적용할때는,
+.uppertagname input {
+    이런식으로 class 안의 input 태그의 속성 지정
+}
+
+
+
+
+
+
+
+
+아래는 50가지 주요 CSS 속성에 대한 간단한 설명과 사용 예제입니다.
+
+color: 텍스트의 색상을 지정합니다.
+color: red;
+font-size: 텍스트의 글꼴 크기를 지정합니다.
+font-size: 16px;
+margin: 요소의 외부 여백을 지정합니다.
+margin: 10px;
+padding: 요소의 내부 여백을 지정합니다.
+padding: 10px;
+background-color: 요소의 배경 색상을 지정합니다.
+background-color: #f0f0f0;
+text-align: 텍스트의 정렬 방향을 지정합니다.
+text-align: center;
+display: 요소의 표시 방법을 지정합니다.
+display: block;
+width: 요소의 너비를 지정합니다.
+width: 300px;
+height: 요소의 높이를 지정합니다.
+height: 200px;
+border: 요소의 테두리를 지정합니다.
+border: 1px solid #000;
+border-radius: 요소의 테두리 모서리를 둥글게 만듭니다.
+border-radius: 5px;
+font-family: 텍스트의 글꼴을 지정합니다.
+font-family: Arial, sans-serif;
+line-height: 텍스트의 줄 간격을 지정합니다.
+line-height: 1.5;
+text-decoration: 텍스트의 장식(밑줄, 취소선 등)을 지정합니다.
+text-decoration: underline;
+float: 요소를 좌우로 띄웁니다.
+float: left;
+position: 요소의 위치를 지정합니다.
+position: absolute;
+top: 요소의 위쪽 위치를 지정합니다.
+top: 10px;
+right: 요소의 오른쪽 위치를 지정합니다.
+right: 10px;
+bottom: 요소의 아래쪽 위치를 지정합니다.
+bottom: 10px;
+left: 요소의 왼쪽 위치를 지정합니다.
+left: 10px;
+overflow: 요소의 내용이 넘칠 때 처리 방법을 지정합니다.
+overflow: hidden;
+box-sizing: 요소의 크기 계산 방법을 지정합니다.
+box-sizing: border-box;
+background-image: 요소의 배경 이미지를 지정합니다.
+background-image: url('example.jpg');
+background-size: 배경 이미지의 크기를 지정합니다.
+background-size: cover;
+background-position: 배경 이미지의 위치를 지정합니다.
+background-position: center;
+background-repeat: 배경 이미지의 반복 여부를 지정합니다.
+background-repeat: no-repeat;
+list-style-type: 목록 항목의 불릿 스타일을 지정합니다.
+list-style-type: disc;
+cursor: 마우스 커서의 모양을 지정합니다.
+cursor: pointer;
+z-index: 요소의 쌓임 순서를 지정합니다.
+z-index: 1;
+opacity: 요소의 투명도를 지정합니다.
+opacity: 0.5;
+transition: 요소의 변화를 부드럽게 처리하기 위한 transition 효과를 지정합니다.
+transition: all 0.3s ease;
+transform: 요소의 변형(이동, 회전, 크기 변경 등)을 지정합니다.
+transform: rotate(45deg);
+box-shadow: 요소의 그림자를 지정합니다.
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+text-shadow: 텍스트의 그림자를 지정합니다.
+text-shadow: 1px 1px 2px #000;
+outline: 요소의 외곽선을 지정합니다.
+outline: 2px solid blue;
+border-collapse: 테이블 셀의 테두리 병합 방식을 지정합니다.
+border-collapse: collapse;
+border-spacing: 테이블 셀의 테두리 간격을 지정합니다.
+border-spacing: 5px;
+flex: Flexbox 레이아웃을 설정합니다.
+display: flex;
+align-items: Flexbox에서 아이템의 수직 정렬 방식을 지정합니다.
+align-items: center;
+justify-content: Flexbox에서 아이템의 수평 정렬 방식을 지정합니다.
+justify-content: space-between;
+flex-direction: Flexbox에서 아이템의 배치 방향을 지정합니다.
+flex-direction: row-reverse;
+flex-wrap: Flexbox에서 아이템의 줄 바꿈 여부를 지정합니다.
+flex-wrap: wrap;
+flex-grow: Flexbox에서 아이템의 확장 비율을 지정합니다.
+flex-grow: 1;
+flex-shrink: Flexbox에서 아이템의 축소 비율을 지정합니다.
+flex-shrink: 0;
+flex-basis: Flexbox에서 아이템의 초기 크기를 지정합니다.
+flex-basis: 100px;
+order: Flexbox에서 아이템의 순서를 지정합니다.
+order: 1;
+grid-template-columns: CSS Grid에서 열의 크기를 지정합니다.
+grid-template-columns: 100px 200px;
+grid-template-rows: CSS Grid에서 행의 크기를 지정합니다.
+grid-template-rows: 50px 100px;
+grid-gap: CSS Grid에서 그리드 간격을 지정합니다.
+grid-gap: 10px;
+grid-column / grid-row: CSS Grid에서 요소의 위치를 지정합니다.
+grid-column: 1 / 3;
+grid-row: 1 / 2;
